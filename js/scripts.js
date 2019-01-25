@@ -14,6 +14,7 @@ var beepboop = function(number) {
   }
   return range;
 }
+
 // jQuery user interface logic here.
 $(document).ready(function() {
   $("form#beepboop").submit(function(event) {

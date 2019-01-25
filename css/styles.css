@@ -1,8 +1,16 @@
 h1 {
   font-size: 65px;
+  font-family: helvetica;
+  color: black;
+  font-weight: bolder;
 }
 
 #result {
   font-size: 22px;
   border: 10px;
+  font-weight: bold;
+}
+
+body {
+  background-color: lightblue;
 }
