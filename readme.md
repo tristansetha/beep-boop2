@@ -30,7 +30,7 @@ access directly http://tristansetha.github.io/beep-boop2
 Atom, HTML, CSS, Bootstrap, Javascript, Jquery, google
 
 ## Support and contact details
-Use however you like! Contact: tristansetha@gmail.com
+Feel free to use! Contact: tristansetha@gmail.com
 
 ### License
 
