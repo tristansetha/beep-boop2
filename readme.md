@@ -14,7 +14,7 @@ open index in your favorite browser
 
 or
 
-access directly <link href="http://tristansetha.github.io/beep-boop2">here</link>
+access directly http://tristansetha.github.io/beep-boop2
 
 
 
