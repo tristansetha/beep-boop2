@@ -8,6 +8,12 @@
     <title>Beep Boop</title>
   </head>
   <body>
+    <div id="rules">
+      <ol style="list-style-type:none">
+        <li>type a number,</li>
+        <li>not a letter</li>
+      </ol>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -24,15 +30,14 @@
               </div>
             </main>
           </div>
-        <form id="beepboop">
-          <div class="form-group">
-            <label for="number">Enter a number!</label>
-            <input id="number" type="text" required>
-          </div>
-
-          <button type="submit" class="btn btn-warning">Submit</button>
-        </form>
-      </div>
+          <form class="form-inLine" id="beepboop">
+            <div class="form-group">
+              <label for="number"><em>type here</em></label>
+              <input id="number" type="text" required>
+            </div>
+            <button type="submit" class="btn btn-warning">Submit</button>
+          </form>
+        </div>
     </div>
     <div class="row">
       <p id="result">

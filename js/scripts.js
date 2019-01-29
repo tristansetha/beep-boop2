@@ -3,13 +3,13 @@ var beepboop = function(number) {
   for (var i = 0; i <= number; i++){
     range.push(i);
   };
-  for (var i = 0; i <= range.length; i++){
-    if (i.toString().includes("0")) {
-      range.splice([i], 1, "Beep");
+  for (var i = 0; i < range.length; i++){
+    if (i % 3 === 0 && i !== 0) {
+      range.splice([i], 1, " I'm sorry, Dave. I'm afraid I can't do that.");
     } else if (i.toString().includes("1")){
-      range.splice([i], 1, "Boop!")
-    } else if (i % 3 === 0 && i !== 0) {
-      range.splice([i], 1, "I'm sorry, Dave. I'm afraid I can't do that.")
+      range.splice([i], 1, " Boop!")
+    } else if (i.toString().includes("0")){
+      range.splice([i], 1, " Beep");
     }
   }
   return range;
